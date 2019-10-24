@@ -9,8 +9,16 @@ But in the software industry we take developers trained in the theory and throw 
 ## Rules
 
 - No if else trap the test cases
-- No other dependencies except jest, jest-extent and esm
-
+- No other dependencies needed except the following
+    - @babel/core
+    - @babel/preset-env
+    - @babel/node
+    - babel-jest
+    - chalk
+    - figlet
+    - jest
+    - jest-extended
+    
 Fork this project, You would to be the master of JavaScript.
 
 ## Running on your local machine
@@ -40,3 +48,9 @@ Fork this project, You would to be the master of JavaScript.
 ## Note
 
 This code kata creates for Thai developers. Therefore, the content in the test cases prepared in Thai.
+
+## Plan of Future
+
+Code Camp 4's Code Kata will be a web application running on the cloud, and students will write the code challenges from there, but we are researching the possible ways. 
+
+So stay tune.
