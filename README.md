@@ -11,7 +11,31 @@ But in the software industry we take developers trained in the theory and throw 
 - No if else trap the test cases
 - No other dependencies except jest, jest-extent and esm
 
-Fork this project, You would to be the master of JavaScript. 
+Fork this project, You would to be the master of JavaScript.
+
+## Running on your local machine
+
+### METHOD-1
+
+1. Fork this project
+2. This project gonna be under your username
+3. Go to your github username
+4. Type `git clone` following by your HTTPS and SSH url
+5. Type `npm install` then It will install all dependencies
+6. Begin the code kata
+
+### METHOD-2
+
+1. Download this project directly as a zip file
+2. Type `npm install` then It will install all dependencies
+3. Begin the code kata
+
+### METHOD-3
+
+1. Clone this project directly
+2. `cd` into this project directory
+3. Type `npm install` then It will install all dependencies
+4. Begin the code kata
 
 ## Note
 
