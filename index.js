@@ -35,5 +35,5 @@ rl.on("line", input => {
 });
 
 function runJests(day) {
-  spawn(`jest`, [`src/day${day}`], { stdio: "inherit" });
+  spawn(`jest`, [`src/day${day}`], { stdio: "inherit", shell: true });
 }
