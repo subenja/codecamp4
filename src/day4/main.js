@@ -1,3 +1,3 @@
-function main(arr) {
+export function main(arr) {
 	// Your code begins here;
 }
