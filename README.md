@@ -11,7 +11,6 @@ Fork this project, You would to be the master of JavaScript.
 ## Rules
 
 - No if else trap the test cases
-- For code camper, the code kata has an expiration date for 14 days since it released. If it has expired, An answer will publish in README for each day, and you can not send the expired code kata to your TAs.
 - No other dependencies needed except the following
   - @babel/core
   - @babel/preset-env
@@ -21,6 +20,8 @@ Fork this project, You would to be the master of JavaScript.
   - figlet
   - jest
   - jest-extended
+  
+For code camper, the code kata has an expiration date for 14 days since it released. If it has expired, An answer will publish in README for each day, and you can not send the expired code kata to your TAs.
 
 ### An example of the test case traps
 
@@ -30,7 +31,7 @@ The test case traps are to know what the test case is passing the parameters to 
 test('Given a string AAAABBBCCDAA should return 4A3B2C1D2A', () => {
     expect(main('AAAABBBCCDAA')).toBe('4A3B2C1D2A')
 });
-test('ให้สตริง FFDDDWEWEEEZZZZZ ควรคืนค่า 2F3D1W1E1W3E5Z', () => {
+test('Given a string FFDDDWEWEEEZZZZZ should return 2F3D1W1E1W3E5Z', () => {
     expect(main('FFDDDWEWEEEZZZZZ')).toBe('2F3D1W1E1W3E5Z')
 });
 ```
