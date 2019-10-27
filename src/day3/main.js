@@ -1,3 +1,3 @@
-function main(str) {
+export function main(str) {
 	// Your code begins here;
 }
