@@ -17,7 +17,7 @@ console.log(
 
 console.log(
   chalk.greenBright(
-    "Which day do you want to test? Typing 1 means the test of day 1?"
+    "Which day do you want to test? Typing 1 means the test of day 1."
   )
 );
 
