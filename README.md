@@ -75,15 +75,3 @@ The above is a terrible code for dealing with real situations. If I pass a new v
 ## Note
 
 This code kata creates for Thai developers. Therefore, the content in the test cases prepared in Thai.
-
-## Plan of Future
-
-### Stage-1
-
-Code Camp 4's Code Kata will be a web application running on the cloud, and students will write the code challenges from there, but we are researching the possible ways.
-
-### Stage-2
-
-We found the possible ways to migrate this Code Kata to live on the REPL platform, So we are working hard for migration in just a couple weeks. If any updates, I will inform all of the challengers and participants in using another platform instead. If you are willing the old ways, we are not enforcing you. You can use the former method to send the assignment to your TAs and also can use the new one too.
-
-So stay tune.
