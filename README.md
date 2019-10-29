@@ -8,6 +8,8 @@ But in the software industry we take developers trained in the theory and throw 
 
 Fork this project, You would to be the master of JavaScript.
 
+We are running on code sandbox, please click to this [link](https://codesandbox.io/s/codecamp4-7bhgw).
+
 ## Rules
 
 - No if else trap the test cases
@@ -71,6 +73,63 @@ The above is a terrible code for dealing with real situations. If I pass a new v
 2. `cd` into this project directory
 3. Type `npm install` then It will install all dependencies
 4. Begin the code kata
+
+## Syncing a fork
+
+You should to type `git remote -v`. If there are not upstream remote, you need to define one.
+
+1. Open your terminal
+2. List the current configured remote repository for your fork.
+   
+    ```bash
+    $ git remote -v
+    > origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+    > origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+    ```
+   
+3. Specify a new remote upstream repository that will be synced with the fork.
+4. Verify the new upstream repository you've specified for your fork.
+   
+    ```bash
+    $ git remote -v
+    > origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+    > origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+    > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+    > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+    ```
+If you have defined the upstream remote then pleases type the following commands
+
+1. Open Terminal.
+2. Change the current working directory to your local project.
+3. Type `git fetch upstream` to fetch changes in upstream remote.
+
+    ```bash
+    $ git fetch upstream
+    > remote: Counting objects: 75, done.
+    > remote: Compressing objects: 100% (53/53), done.
+    > remote: Total 62 (delta 27), reused 44 (delta 9)
+    > Unpacking objects: 100% (62/62), done.
+    > From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY>  * [new branch]
+    ```
+4. Type `git checkout master` Check out your fork's local `master` branch.
+
+    ```bash
+    $ git checkout master
+    > Switched to branch 'master'
+    ```
+
+5. Type `git merge upstream/master` to merge your local master branch and your fork master branch together.
+
+    ```bash
+    $ git merge upstream/master
+    > Updating a422352..5fdff0f
+    > Fast-forward
+    >  README                    |    9 -------
+    >  README.md                 |    7 ++++++
+    >  2 files changed, 7 insertions(+), 9 deletions(-)
+    >  delete mode 100644 README
+    >  create mode 100644 README.md
+    ```
 
 ## Note
 
