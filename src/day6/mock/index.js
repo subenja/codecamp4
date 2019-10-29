@@ -1,4 +1,4 @@
-export class Node {
+class Node {
 	constructor(value) {
 		this.right = undefined;
 		this.left = undefined;
@@ -6,7 +6,7 @@ export class Node {
 	}
 }
 
-export function insert(root, node) {
+function insert(root, node) {
 	if (root === undefined) {
 		root = node;
 	} else {
@@ -25,3 +25,5 @@ export function insert(root, node) {
 		}
 	}
 }
+
+module.exports = { Node, insert };

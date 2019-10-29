@@ -1,5 +1,5 @@
-import {main} from "./main";
-import {insert, Node} from "./mock";
+const { main } = require('./main');
+const { Node, insert } = require('./mock');
 
 describe('ให้ root ของ binary search tree ตัวหนึ่งมา จงหา node ที่มีค่าสูงสุดเป็นอันดับสอง', () => {
 	test('ให้ node ของเลข 50, 30, 40, 60, 70 และ 30 ควรคืนค่า 60', () => {

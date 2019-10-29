@@ -1,3 +1,5 @@
-export function main(str) {
+function main(str) {
 	// Your code begins here;
 }
+
+module.exports = { main };
