@@ -1,7 +1,7 @@
-import {spawn} from "child_process";
-import readline from "readline";
-import chalk from "chalk";
-import figlet from "figlet";
+const { spawn } = require("child_process");
+const readline = require("readline");
+const chalk = require("chalk");
+const figlet = require("figlet");
 
 const rl = readline.createInterface({
   input: process.stdin,
