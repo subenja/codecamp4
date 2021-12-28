@@ -18,7 +18,7 @@
   "homepage": "https://github.com/EpicHigh/codecamp4#readme",
   "devDependencies": {
     "jest": "27.4.3",
-    "jest-extended": "1.0.0"
+    "jest-extended": "1.2.0"
   },
   "dependencies": {
     "chalk": "^4.0.0",
